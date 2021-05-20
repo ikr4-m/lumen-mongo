@@ -17,3 +17,4 @@
 //    return $router->app->version();
 //});
 $router->get('/', 'ExampleController@index');
+$router->get('test', 'ExampleController@index_db');
